@@ -1,0 +1,266 @@
+.container {
+    width:1366px;
+    display: block;
+    margin: 0 auto;
+}
+
+.topbar{
+    background-color: #d63c7d;
+    color: #ffffff;
+    padding: 15px 5px;
+    }
+
+button {
+    border: none;
+    background-color: #333333;
+    color:#ffffff;
+    font-weight: bold;
+    padding:10px 15px;
+}
+
+button:hover {
+    background-color: #555555;
+    color: #eeeeee;
+    }
+
+button:focus {
+    outline: none;
+}
+
+.float-right {
+    float: right;
+}
+
+.topbar input {
+    border: none;
+    padding:10px 5px;
+    background:#dd719f;
+    
+}
+
+.white {
+    color: #ffffff;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ffffff;
+}
+
+::-moz-input-placeholder { /* Chrome/Opera/Safari */
+    color: aquamarine;
+}
+
+.white::webkit- input-placeholder {
+    color:#fcfcfc;
+    pointer-events:none;
+    
+}
+
+.clearfix {
+    display: block;
+    width:100%;
+    clear: both;
+    float: none;
+    
+}
+
+.section {
+    width: 100%;
+}
+
+.banner {
+    display: block;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top:-33px;
+    left:290px;
+    box-shadow: 0 0 45px #333333;
+}
+
+.logo img {
+    display:block;
+    width:250px;
+    }
+
+.banner-image {
+    display:block;
+    width: 100%;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;    
+    height: 350px;
+}
+
+form {
+    padding-left: 465px;
+}
+
+form input {
+    border:1px solid #333333;
+    padding:10px 15px ;
+    background:none;
+    
+}
+
+.newsletter h2 {
+    text-align: center;
+    font-size: 42px;
+    padding:30px 0px 10px 0px;
+    font-family: sans-serif;
+    
+}
+
+.newsletter {
+    display: block;
+    padding: 0px 0px 50px;
+    
+}
+
+.submit-field {
+    width: 100px;
+    background-color: #d63c7d;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    padding:10px 20px 10px 20px;
+    
+}
+
+.submit-field:hover {
+    background-color: #555555;
+    color: #eeeeee;
+    padding: 10px 20px 10px 20px;
+    width: 100px;
+    
+}
+
+.email-field {
+    padding: 10px 20px 10px 20px;
+    border-width: thin;
+    border: 1px solid #555555;
+    width: 600px;
+    
+}
+
+.newsletter form {
+    display: inline;
+    width: 650px;
+    padding: 30px 300px 30px 300px;
+    
+}
+
+.newsletter ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #525252;
+}
+
+.newsletter ::-moz-input-placeholder { /* Chrome/Opera/Safari */
+    color: aquamarine;
+}
+
+.second button {
+    background-color: #d63c7d;
+    font-weight: bold;
+    width: 250px;
+}
+
+
+.new .controls {
+    float: right;
+    padding: 30px;
+    
+}
+
+.image-details1 {
+    float: left;
+    margin-right: 17px;
+    width: 450px;
+}
+
+
+.image-details2 {
+    float: right;
+    margin-left: 17px;
+    width: 450px;
+}
+
+.new h2 {
+    display: inline-block;
+    font-size: 30px;
+    padding:20px
+    
+}
+
+.featured {
+    background-color: #efefef;
+    
+}
+
+.featured h2 {
+    display: inline-block;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding:20px
+}
+
+.featured-products {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.featured-image {
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+    
+}
+
+.paragraphs {
+   margin: auto;
+   padding: 20px 25px;
+   
+}
+    
+.paragraph {
+    float: left;
+    margin: 0;
+    width: 48%;
+    padding: 10px;
+}
+    
+
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+
+.new {
+    background-color: #efefef;
+    
+}
+
+.footerbar {
+    color: aliceblue;
+    background-color: black;
+    padding: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.footerbar {
+  padding: 20px;
+  background-color: black;
+  border: 10px solid black;
+  -moz-border-top-colors: #e00 #c30 #c50 #c60 #c70 #c80 #c90 #ca0 #cb0 #cc0;
+  -moz-border-right-colors: red #f60 #f80 #f90 #fa0 #fb0 #fc0 #fd0 #fe0 #ff0;
+  -moz-border-bottom-colors: red #f60 #f80 #f90 #fa0 #fb0 #fc0 #fd0 #fe0 #ff0;
+  -moz-border-left-colors: #e00 #c30 #c50 #c60 #c70 #c80 #c90 #ca0 #cb0 #cc0;
+}
+
+i {
+  /* the user will be able to select the text, but not change it. */
+  -moz-user-input: disabled;
+}
+
